@@ -1,7 +1,9 @@
 package Ej_6_a_Ordenamiento_por_seleccion;
 
 public class Ej_6 {
-    public static void ordenarPorSeleccion(int[] arreglo) {
+
+
+    public void ordenarPorSeleccion(int[] arreglo) {
         for (int i = 0; i < arreglo.length; i++) {
             int indiceMinimo = i;
 
