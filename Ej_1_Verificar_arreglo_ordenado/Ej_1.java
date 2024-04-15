@@ -1,8 +1,6 @@
 package Ej_1_Verificar_arreglo_ordenado;
 
 public class Ej_1 {
-
-
     public boolean isOrdenado(int[] arr, int i) {
         if (i < arr.length-1) {
             if (arr[i] > arr[i + 1]) {
